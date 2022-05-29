@@ -1,0 +1,151 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s all;
+}
+
+
+
+body{
+    background: url("../pic/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+#welcome {
+    color: white;
+    background-color: black;
+    background: url("../pic/welcomebackground.png");
+    background-position: center;
+    background-size: cover;
+    height: 760px;
+    width: auto;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+#wel1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    transition: 0.2s all;
+}
+#welcomeText{
+
+    font-family: 'Abel', sans-serif;
+    font-size: 300%;
+
+}
+
+#information{
+
+    margin: auto;
+    width: 80%;
+
+    padding: 10px;
+}
+
+
+#infoText{
+    margin-top: 400px;
+    font-family: 'Rajdhani', sans-serif ;
+    font-weight: 300;
+
+}
+
+
+#br1{
+    height: 400px;
+    color: white;
+}
+
+
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 320px;
+    margin-bottom: 50px;
+    width: 50%;
+    transition: 1s all;
+
+}
+
+#logo:hover{
+
+
+}
+
+
+#inviteText{
+    opacity: 70%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 170%;
+    transition: 0.3s all;
+}
+
+
+#inviteText:hover{
+    font-size: 175%;
+    opacity: 100%;
+}
+
+#btnDIV{
+
+    margin-top: 0;
+    margin-bottom: 200px;
+
+}
+
+#getBTN{
+    background: url("../pic/btn-background.png");
+    background-size: 100%;
+    background-position: center;
+    opacity: 50%;
+    display: block;
+    margin: auto;
+    font-size: 150%;
+    width: 200px;
+    height: 65px;
+    border-radius: 5px;
+    border-width: 2px;
+    transition: 0.05s all;
+
+}
+
+#getBTN:hover{
+    opacity: 100%;
+    border-width: 2px;
+    border-color: black;
+}
+
+#down{
+    background: black;
+    color: white;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+#madeBy{
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    transition: 0.2s all;
+
+}
